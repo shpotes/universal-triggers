@@ -3,7 +3,7 @@ import sys
 import torch
 import torch.nn.functional as F
 import numpy as np
-from pytorch_transformers import GPT2Tokenizer, GPT2LMHeadModel
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
 import sample_from_gpt2
 sys.path.append('..')
 import attacks

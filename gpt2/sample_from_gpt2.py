@@ -1,6 +1,6 @@
 import torch
 import torch.nn.functional as F
-from pytorch_transformers import GPT2Tokenizer, GPT2LMHeadModel
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
 # Gets the score for the top-k logits to improve quality of samples.
 def top_k_logits(logits, k):
